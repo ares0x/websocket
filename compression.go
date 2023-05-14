@@ -5,8 +5,8 @@
 package websocket
 
 import (
-	"compress/flate"
 	"errors"
+	"github.com/klauspost/compress/flate"
 	"io"
 	"strings"
 	"sync"
